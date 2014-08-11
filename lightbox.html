@@ -8,23 +8,23 @@
     </head>
     <body>        
             <div class="box" id="box">
-            	
+            	<img src="http://cdn-sg1.pgimgs.com/images/pg/close-button.png" class="closebutton" onclick="closebox();">
                 <div class="boxtitle" id="boxtitle">
-                    Add ..
+                    Add Student..
                 </div>
                 <div class="boxcontainer">
-                    <form method="" action="" >
+                    <form method="POST" action="index.php" >
                         <label for="name">Name </label>
-                        <input type="text" name="name" id="name" Placeholder=" name" maxlength="15" size="40">
+                        <input type="text" name="name" id="name" Placeholder="Student's name" maxlength="15" size="40">
 
                         <label for="age">Age</label>
-                        <input type="text" name="age" Placeholder="age" maxlength="3" size="40">
+                        <input type="text" name="age" Placeholder="Student's age" maxlength="3" size="40">
 
                         <label for="class">Class</label>
-                        <input type="text" name="class" Placeholder="phone" maxlength="2" size="40">
+                        <input type="text" name="class" Placeholder="Student's class" maxlength="2" size="40">
 
                         <label for="section">Section</label>
-                        <input type="text" name="section" Placeholder="---" maxlength="2" size="40">
+                        <input type="text" name="section" Placeholder="Student's section" maxlength="2" size="40">
 						
                         <input type="submit" name="registerbtn" class="button">
                     </form>

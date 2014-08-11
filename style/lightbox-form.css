@@ -1,9 +1,18 @@
 
-
+.shadowing
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #C3c3c3;
+	opacity:0.5;
+	filter: alpha(opacity=50);
+}
 
 .box 
 {
-
     color: #EEE;
     font-size: 15px;
     font-family: Georgia, Times, serif;
